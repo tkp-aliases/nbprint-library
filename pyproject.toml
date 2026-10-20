@@ -12,7 +12,7 @@ authors = [
 description = "Alias for athenaea"
 readme = "README.md"
 license = { text = "Apache-2.0" }
-version = "0.1.0"
+version = "1.0.0"
 requires-python = ">=3.11"
 keywords = []
 
@@ -28,7 +28,9 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
 ]
 
-dependencies = []
+dependencies = [
+    "athenaea"
+]
 
 [project.optional-dependencies]
 develop = [
@@ -56,7 +58,7 @@ Repository = "https://github.com/tkp-aliases/nbprint-library"
 Homepage = "https://github.com/tkp-aliases/nbprint-library"
 
 [tool.bumpversion]
-current_version = "0.1.0"
+current_version = "1.0.0"
 commit = true
 tag = true
 commit_args = "-s"
